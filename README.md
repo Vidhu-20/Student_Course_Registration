@@ -1,4 +1,5 @@
-Student Course Registration Microservices Project – Summary
+Student Course Registration Microservices Project 
+SUMMARY
 📌 Project Purpose & Functionality
 The Student Course Registration System is designed to allow students to enroll in courses, manage their registration details, and track fee payments efficiently. It follows a microservices architecture, ensuring modularity, scalability, and independent service management.
 🔧 Microservices & Their Roles
