@@ -64,13 +64,13 @@ mvn spring-boot:run
 ```
 ## **Course Service**
 ```sh
-cd course-service:
+cd course-service
 - mvn clean install
 - mvn spring-boot:run
 ```
 ## **Registration Service**
 ```sh
-cd registration-service:
+cd registration-service
 - mvn clean install
 - mvn spring-boot:run
 ```
