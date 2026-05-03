@@ -1,0 +1,24 @@
+Step 1:Start the eureka server
+http://localhost:8761/
+Step 2:Start the studentm1 server
+http://localhost:8082/swagger-ui.html
+Step 3:Start the coursems1 server
+http://localhost:8083/swagger-ui.html
+Step 4:Start the course-registration server
+http://localhost:8084/swagger-ui.html
+Step 5;Start the api gateway server
+http://localhost:9091/student/1
+“Similarly, for other microservices, copy the endpoint URLs from Swagger for each method and use them to test"
+health check
+http://localhost:9091/actuator/health
+
+Authservice
+Newly register(post)---no auth
+http://localhost:8086/auth/register
+Login the register user(post)----no auth
+http://localhost:8086/auth/login
+role based access
+user(get)auth copy the bearer token from login
+http://localhost:8086/user/hello
+admin(get)auth copy the bearer token from login
+http://localhost:8086/admin/hello
